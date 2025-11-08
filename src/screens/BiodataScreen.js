@@ -4,7 +4,6 @@ import { Picker } from "@react-native-picker/picker";
 import DateTimePicker from "@react-native-community/datetimepicker";
 import { format } from "date-fns";
 
-// --- IMPORT GAMBAR LOKAL ---
 const FotoProfil = require('../../assets/pp.jpg');
 
 const BiodataScreen = () => {
@@ -34,7 +33,6 @@ const BiodataScreen = () => {
       </View>
 
       <View style={styles.card}>
-        {/* Dropdown */}
         <Text style={styles.label}>Program Studi (Dropdown)</Text>
         <View style={styles.inputContainer}>
           <Picker
@@ -48,7 +46,6 @@ const BiodataScreen = () => {
           </Picker>
         </View>
 
-        {/* Radio Button */}
         <Text style={styles.label}>Jenis Kelamin (Pilihan)</Text>
         <View style={styles.radioGroup}>
           <TouchableOpacity 
@@ -65,7 +62,6 @@ const BiodataScreen = () => {
           </TouchableOpacity>
         </View>
 
-        {/* Teks Input */}
         <Text style={styles.label}>Alamat (Teks Input)</Text>
         <TextInput 
           style={styles.textInput} 
@@ -74,13 +70,11 @@ const BiodataScreen = () => {
           onChangeText={setAlamat}
         />
 
-        {/* Calendar */}
         <Text style={styles.label}>Tanggal Lahir (Calendar)</Text>
         <TouchableOpacity style={styles.datePickerButton} onPress={() => setShowPicker(true)}>
             <Text style={styles.datePickerText}>{`Pilih Tanggal: ${format(date, "dd MMMM yyyy")}`}</Text>
         </TouchableOpacity>
         
-        {/* HANYA RENDER JIKA showPicker bernilai TRUE */}
         {showPicker && (
           <DateTimePicker
             testID="dateTimePicker"

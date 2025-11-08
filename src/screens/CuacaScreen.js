@@ -2,10 +2,8 @@ import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-// --- PERBAIKAN: IMPORT GAMBAR LOKAL ---
 const SunImage = require('../../assets/sun.png'); 
 
-// Data Cuaca Statis
 const staticWeather = {
   city: "Bandung",
   temperature: "28°C",
@@ -21,7 +19,7 @@ const CuacaScreen = () => {
       
       <View style={styles.weatherIconContainer}>
         <Image 
-          source={SunImage} // Menggunakan variabel require()
+          source={SunImage}
           style={styles.weatherAnimation}
           resizeMode="contain"
         />

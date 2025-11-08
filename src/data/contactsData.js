@@ -1,0 +1,17 @@
+export const contacts = [
+  { id: "1", name: "Andi Saputra", phone: "0812-3456-7890", avatarUrl: "https://picsum.photos/id/1011/100/100" },
+  { id: "2", name: "Budi Hartono", phone: "0811-2233-4455", avatarUrl: "https://picsum.photos/id/1012/100/100" },
+  { id: "3", name: "Citra Dewi", phone: "0813-9876-5432", avatarUrl: "https://picsum.photos/id/1013/100/100" },
+  { id: "4", name: "Dian Nugraha", phone: "0815-1122-3344", avatarUrl: "https://picsum.photos/id/1014/100/100" },
+  { id: "5", name: "Eko Prasetyo", phone: "0817-5566-7788", avatarUrl: "https://picsum.photos/id/1015/100/100" },
+  { id: "6", name: "Fina Lestari", phone: "0818-4433-2211", avatarUrl: "https://picsum.photos/id/1016/100/100" },
+  { id: "7", name: "Gani Maulana", phone: "0819-0011-2233", avatarUrl: "https://picsum.photos/id/1018/100/100" },
+  { id: "8", name: "Hana Wijaya", phone: "0852-1100-9988", avatarUrl: "https://picsum.photos/id/1019/100/100" },
+  { id: "9", name: "Indra Kusuma", phone: "0853-6677-8899", avatarUrl: "https://picsum.photos/id/1020/100/100" },
+  { id: "10", name: "Joko Susilo", phone: "0856-1029-3847", avatarUrl: "https://picsum.photos/id/1021/100/100" },
+  { id: "11", name: "Kiki Amalia", phone: "0857-4567-8901", avatarUrl: "https://picsum.photos/id/1022/100/100" },
+  { id: "12", name: "Lia Fitriani", phone: "0877-3210-9876", avatarUrl: "https://picsum.photos/id/1023/100/100" },
+  { id: "13", name: "Maman Sudiro", phone: "0878-5432-1098", avatarUrl: "https://picsum.photos/id/1024/100/100" },
+  { id: "14", name: "Nita Sari", phone: "0896-7654-3210", avatarUrl: "https://picsum.photos/id/1025/100/100" },
+  { id: "15", name: "Oki Darmawan", phone: "0899-1234-5678", avatarUrl: "https://picsum.photos/id/1026/100/100" },
+];
